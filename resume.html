@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>吴哲简历</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/echarts/3.5.0/echarts.min.js"></script>
+    <script type="text/javascript" src="https://at.alicdn.com/t/font_6vtx1jn6xq1tt9.js"></script>
+    <link href="https://cdn.bootcss.com/normalize/6.0.0/normalize.min.css" rel="stylesheet">
+    <style type="text/css">
+        *{box-sizing: border-box;}
+        body{
+            background: #f9f9f9;
+            font-family: 'Helvetica Neue',Helvetica,'Lucida Grande',Arial,'Hiragino Sans GB',微软雅黑,'WenQuanYi Micro Hei',STHeiti,SimSun,sans-serif;
+        }
+        h2,h3{
+            color: #00bfa5;
+        }
+        h3,h4{
+            margin: 30px 0 10px 0;
+            
+        }
+        ul{
+            list-style: none;
+            /*padding:0;*/
+            margin:0;
+        }
+        p{
+            margin: 10px 0;
+        }
+        img{
+            width:40%;
+        }
+        .df{
+            display: flex;
+        }
+        .dib{
+            display: inline-block;
+        }
+        .icon {
+           width: 1.2em; 
+           height: 1.2em;
+           color: #00bfa5;
+           display: inline-block;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+           margin: 30px 10px 10px 10px;
+        }
+        .resume{
+            width: 80%;
+            margin: 40px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #c0c0c0;
+            overflow: hidden;
+        }
+        .sidebar{
+            flex:2;
+            flex-flow: column wrap;
+            background: #eee;
+            padding: 30px;
+        }
+        .header{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .header img{
+            width: 60%;
+            height: 60%;
+            border-radius: 50%; 
+            margin-top: 20px;
+        }
+        .contact{
+            margin-top: 30px;
+            display: flex;
+        }
+        .application{
+            margin-top: 30px;
+        }
+        .skill{
+            margin-top: 30px;
+        }
+        .radars{
+            width: 100%;
+            height: 300px;
+            /*margin-top: 10px;*/
+            
+        }
+        .main{
+            flex:5;
+            width: 90%;
+            background: #fff;
+            padding: 20px 30px;
+        }
+        .main h4{
+            margin: 20px 0;
+        }
+        .title{
+            border-bottom: 1px solid #ccc;
+        }
+        .content{
+            margin-left: 40px;
+        }
+        .experience ul li{
+            overflow: auto;
+        }
+        .experience ul li header h4{
+            display:inline-block;
+        }
+        .experience ul li header>a{
+            /*display:inline-block;*/
+            margin: 0 0 0 10px;
+            font-size: 12px;
+            padding:2px;
+            border: 1px solid #00bfa5;
+            color: #00bfa5;
+            border-radius: 2px;
+            text-decoration: none;
+        }
+        .experience ul li header>a:hover{
+            color: #fff;
+            background: #00bfa5;
+        }
+        .experience img{
+            width: 200px;
+            height: 120px;
+            margin-right: 20px;
+            float: left;
+            border: 1px solid #ccc;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="resume df">
+        <div class="sidebar df">
+            <div class="header df">
+                <img src="./img/image01.jpg">
+                <h2>吴哲</h2>
+                <span>每个人都不一样，这个世界才精彩</span>
+            </div>
+            <div class="contact df">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-lianxifangshilogo"></use>
+                </svg>
+                <div>
+                    <h3>Contact. 联系方式</h3>
+                    <span>邮箱：relax89757@gmail.com</span><br>
+                    <span>手机：15088600400</span>
+                </div>
+            </div>
+            <div class="application df">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-yingpin"></use>
+                </svg>
+                <div>
+                    <h3>Application. 应聘岗位</h3>
+                    <span>前端工程师</span>
+                </div>
+            </div>
+            <div class="skill df">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-renwujineng"></use>
+                </svg>
+                <div>
+                    <h3>radar. 技能图</h3>
+                </div>
+                
+            </div>
+            <div class="radars">
+                
+            </div>
+        </div>
+        <div class="main">
+            <div class="info">
+                <div class="title df">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-jibenxinxisvg"></use>
+                    </svg>
+                    <h3>Basic info. 基本信息</h3>
+                </div>
+                <div class="content">
+                    <p><span>个人信息:</span> 吴哲 / 男</p>
+                    <p><span>教育经历: </span> 中国计量大学 / 本科 /  工业设计 / 2006-2010</p>
+                    <p><span>Blog: </span> relax89757.win</p>
+                    <p><span>GitHub:</span> github.com/relax89757</p>
+                </div>
+            </div>
+            <div class="skillList">
+                <div class="title df">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-renwujineng"></use>
+                    </svg>
+                    <h3>Skill. 技能清单</h3>
+                </div>
+                
+                <ul>
+                    <li>
+                        <h4>HTML / CSS</h4>
+                        <p>熟悉W3C规范、开发调试、浏览器兼容、代码可读性、常见布局、HTML5、CSS3、盒模型、浮动定位、BFC、CSS3动画、flex、栅格、响应式.能准确还原设计稿。</p>
+                        <p>会设计，有审美能力，重视用户体验</p>
+                        <p>了解stylus，能够使用bootstrap, less等框架</p>
+                    </li>
+                    <li>
+                        <h4>JavaScript</h4>
+                        <p>熟悉原生JavaScript、事件模型、DOM 操作、Math对象、计时器、AJAX、jsonp、跨域、闭包、原型链、面向对象、封装.</p>
+                        <p>了解模块化、面向对象的方式编程</p>
+                    </li>
+                    <li>
+                        <h4>框架、工具</h4>
+                        <p>熟悉jQuery，能够封装简单的jQuery 插件</p>
+                        <p>了解npm，能够使用webpack等前端自动化工具</p>
+                        <p>了解vue框架，善于使用vue-cli搭建单页应用</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="experience">
+                <div class="title df">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-4"></use>
+                    </svg>
+                    <h3>Experience. 项目经验</h3>
+                </div>
+                <ul>
+                    <li>
+                        <header>
+                            <h4>音乐播放器</h4>
+                            <a class="item-demo" href="http://relax89757.win/musicPlayer/music.html" target="_blank">demo</a>
+                        </header>
+                        <img src="./img/002.jpg">
+                        <p>项目描述：<br><br>
+                        一个原生JS制作的一个音乐播放器。完成了简单的播放、暂停、切换歌曲、进度条等，让我对H5的audio标签及音乐播放的一些原生事件、拖拽事件等有了更深入的理解。
+                        <!-- 使用技术：JavaScript</p> -->
+                        
+                    </li>
+                    <li>
+                        <header>
+                            <h4>弹窗组件</h4>
+                            <a class="item-demo" href="http://relax89757.win/webCompotent/index.html" target="_blank">demo</a>
+                        </header>
+                        <img src="./img/003.jpg">
+
+                        <p>项目描述：<br><br>一个web弹窗组件，运用RequireJs、jQuery、Flex布局等技术开发,实现了JS模块化、自定义事件、定制皮肤、面向对象编程、抽象类的作用、参数设计、语法封装</p>
+                    </li>
+                    <li>
+                        <header>
+                            <h4>轮播组件</h4>
+                            <a class="item-demo" href="http://relax89757.win/demo/轮播组件/轮播组件.html" target="_blank">demo</a>
+                        </header>
+                        <img src="./img/007.jpg">
+
+                        <p>项目描述：<br><br>一个图片轮播组件，尝试了ES6新的语法，练习了UI组件的API设计及控制流设计</p>
+                    </li>
+                    <li>
+                        <header>
+                            <h4>简易购物车</h4>
+                            <a class="item-demo" href="http://relax89757.win/demo/shoppingCart/index.html" target="_blank">demo</a>
+                        </header>
+                        <img src="./img/004.jpg">
+                        <p>项目描述：<br><br>简易购物车，使用原生JavaScrpt，采用localStorage本地存储对购物信息保存。
+                    </li>
+                    
+                    <li>
+                    <header>
+                            <h4>QQ登录界面</h4>
+                            <a class="item-demo" href="http://relax89757.win/demo/QQ/qq.html" target="_blank">demo</a>
+                        </header>
+                        <img src="./img/005.jpg">
+                        <p>项目描述：<br><br>QQ登录界面，使用原生JavaScript实现拖拽事件，状态切换等效果</p>
+                    </li>
+                    <li>
+                        <header>
+                            <h4>lady's diary官网页面</h4>
+                            <a class="item-demo" href="http://relax89757.win/demo/ladys-diary/index.html" target="_blank">demo</a>
+                        </header>
+                        <img src="./img/006.jpg">
+                        <p>项目描述：<br><br>
+                        根据设计稿还原页面，使用jQuery,并使用构造函数模式进行开发，添加轮播，瀑布流，曝光加载等功能</p>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var radars = echarts.init(document.querySelector('.radars'));
+
+        var option = {
+            title: {
+                text: ''
+            },
+            color:'#00bfa5',
+            textStyle: {color:'rgba(0, 0, 0, .6)'},
+            tooltip: {},
+            legend: {
+                data: ['jQuery']
+            },
+            radar: {
+                // shape: 'circle',
+                indicator: [
+                                {text: 'HTML', max: 100},
+                                {text: 'CSS', max: 100},
+                                {text: 'JavaScript', max: 100},
+                                {text: 'PhotoShop', max: 100},
+                                {text: 'Vue', max: 100},
+                                {text: 'jQuery', max: 100}
+                            ],
+                            radius: 70,
+                            center: ['51%','36%'],
+            },
+            series: [{
+                name: '',
+                type: 'radar',
+                areaStyle: {normal: {color:'#00bfa5'}},
+                
+                data : [
+                    
+                     {
+                        value : [85, 85, 80, 90, 70, 75],
+                        name : '技能图'
+                    }
+                ]
+            }]
+        };
+
+        radars.setOption(option);
+
+    </script>
+</body>
+</html>
